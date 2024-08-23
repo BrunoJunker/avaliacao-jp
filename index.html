@@ -8,26 +8,39 @@
 </head>
 <body>
     <header>
+        <style>  
+            .piscando {  
+                animation: pisca 1s infinite;  
+            }  
+    
+            @keyframes pisca {  
+                0% { opacity: 1; }  
+                50% { opacity: 0; }  
+                100% { opacity: 1; }  
+            }  
+        </style>  
         <h1>Sobre Mim</h1>
         <nav>
             <a href="index.html">Início</a>
             <a href="experiencias.html">Experiências</a>
+            <a href="rebaixados.html" class="piscando"> NÂO CLICAR!!!!</a>
         </nav>
+
     </header>
     <main>
         <section class="bio">
             <h2>Quem Sou Eu</h2>
-            <p>Olá! Meu nome é Bruno Henrique de Mello Junker .</p>
+            <p>Olá! Meu nome é Bruno Henrique de Mello Junker, e faço parte do curso jovem programador no Senac!</p>
             <p>Hobbies favoritos: Estudar, academia e pedalar</p>
             <p>Estilos: Casual, esportivo, confortavel</p>
             <p>Músicas Favoritas: eletronic, funk, trap</p>
             <p>Filmes Favoritos: star wars, O Senhor dos Anéis, Matrix</p>
             <p>Time Favorito: Flamengo</p>
-            <p>Link para meu GitHub:<a href="https://github.com/BrunoJunker/avaliacao-jp">GitHub!</a></p>
+            <p>Link para meu GitHub:<a href="https://github.com/BrunoJunker/avaliacao-jp"> https://github.com/BrunoJunker/avaliacao-jp!</a></p>
             <img src="imagens/foto.jpg.jpeg" alt="Minha Foto">
             
             <p><video controls>
-                <source src="video.mp4" type="video/mp4">
+                <source src="video/video.mp4" type="video/mp4">
                 
             </video></p>
         </section>
@@ -37,3 +50,4 @@
     </footer>
 </body>
 </html>
+
